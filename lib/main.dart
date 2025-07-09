@@ -18,7 +18,6 @@ class MyApp extends StatelessWidget {
       create: (_) => AuthProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.blue),
         home: Consumer<AuthProvider>(
           builder: (context, auth, _) {
             return auth.isLoggedIn ? const ProductListScreen() : const LoginScreen();
