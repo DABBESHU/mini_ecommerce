@@ -86,6 +86,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
             padding: const EdgeInsets.all(12.0),
             child: TextField(
               controller: _searchController,
+              cursorColor: Colors.blue,
               style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                 hintText: 'Search products...',

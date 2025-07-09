@@ -56,6 +56,7 @@ class LoginScreen extends StatelessWidget {
                     const SizedBox(height: 24),
                     TextField(
                       controller: usernameController,
+                      cursorColor: Colors.blue,
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Username',
@@ -80,6 +81,7 @@ class LoginScreen extends StatelessWidget {
                     const SizedBox(height: 16),
                     TextField(
                       controller: passwordController,
+                      cursorColor: Colors.blue,
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Password',
